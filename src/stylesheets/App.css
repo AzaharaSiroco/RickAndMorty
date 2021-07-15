@@ -1,59 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
 .App {
-    text-align: center;
-    color: white;
-    background-image: url(../images/fondonegro.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-  .eachCharacter {
-    background-color: gainsboro 1.5;
-    width: fit-content;
-    color: black;
-    display: inline-block;
-    border-radius: 15px;
-    margin-left: 25px;
-    margin-bottom: 25px;
-    font-size: 15px;
-    text-decoration: none;
-  }
-  .photo {
-    width: 100px;
-    border-radius: 50%;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-  }
-  .cardCharacter {
-    text-decoration: none;
-    max-width: 300px;
-    padding-left: 3px;
-    padding-right: 3px;
-    border-style: dotted;
-    border-color: ghostwhite;
-    border-radius: 15%;
-  }
-  
-  .character_name {
-    display: flex;
-    flex-direction: column;
-    font-family: "Creepster", cursive;
-    color: green;
-    text-shadow: 1px 1px 0 #aaa, 1px 1px 1px #777, 1px 1px 1px #444;
-  }
-  .character_specie {
-    font-size: 10px;
-  }
-  .character_location {
-    font-size: 10px;
-  }
-  .listCharacter {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-    justify-items: center;
-  }
-  .noSee {
-    display: none;
-  }
-  
+  text-align: center;
+  color: white;
+  background-image: url(../images/fondonegro.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.eachCharacter {
+  background-color: gainsboro 1.5;
+  width: fit-content;
+  color: black;
+  display: inline-block;
+  border-radius: 15px;
+  margin-left: 25px;
+  margin-bottom: 25px;
+  font-size: 15px;
+  text-decoration: none;
+}
+.photo {
+  width: 100px;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.cardCharacter {
+  text-decoration: none;
+  max-width: 300px;
+  padding-left: 3px;
+  padding-right: 3px;
+  border-style: dotted;
+  border-color: ghostwhite;
+  border-radius: 15%;
+}
+
+.character_name {
+  display: flex;
+  flex-direction: column;
+  font-family: "Creepster", cursive;
+  color: green;
+  text-shadow: 1px 1px 0 #aaa, 1px 1px 1px #777, 1px 1px 1px #444;
+  text-decoration: none;
+}
+.character_specie {
+  font-size: 10px;
+  text-decoration: none;
+}
+.character_location {
+  font-size: 10px;
+}
+.listCharacter {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  justify-items: center;
+}
+.noSee {
+  display: none;
+}
