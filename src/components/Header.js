@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <>
       <h1 className="noSee">RICK Y MORTY</h1>
-      <img src={logo} alt="Logo" title="Logo"></img>
+      <img className="log" src={logo} alt="Logo" title="Logo"></img>
     </>
   );
 };

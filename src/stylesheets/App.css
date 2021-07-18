@@ -32,6 +32,7 @@
   margin-top: 10px;
   margin-left: 10px;
   margin-right: 10px;
+  box-shadow: 18px 18px 18px 18px rgb(40, 156, 4);
 }
 .cardCharacter {
   text-decoration: none;
@@ -47,16 +48,19 @@
   display: flex;
   flex-direction: column;
   font-family: "Creepster", cursive;
-  color: green;
+  color: white;
   text-shadow: 1px 1px 0 #aaa, 1px 1px 1px #777, 1px 1px 1px #444;
   text-decoration: none;
 }
 .character_specie {
   font-size: 10px;
   text-decoration: none;
+  color: white;
 }
 .character_location {
   font-size: 10px;
+  margin-bottom: 10px;
+  color: white;
 }
 .listCharacter {
   display: grid;
@@ -67,4 +71,14 @@
 }
 .noSee {
   display: none;
+}
+.log {
+  margin-bottom: 10px;
+}
+.filtersContainer {
+  margin-bottom: 25px;
+  box-shadow: 5px -3px 3px 0px rgb(40, 156, 4);
+  border-radius: 45px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
